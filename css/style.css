@@ -1,0 +1,98 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+
+/* Estilos generales */
+
+h1{
+    margin: 12px;
+}
+
+body{
+    font-family: "Roboto";
+    box-sizing: border-box;
+    margin: 0;
+    background-color:#2f4f30;
+    color:whitesmoke;
+}
+
+.btn{
+    text-align: center;
+    border: none;
+    border-radius: 7px;
+    padding: 15px;
+    color: white;
+    min-width: 93px;
+    margin: 5px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+.btn:disabled,
+.btn[disabled]{
+    border: none;
+}
+
+.rojo{
+    background-color: rgb(167, 28, 28);
+}
+
+.verde{
+    background-color: rgb(88, 194, 88);
+}
+
+
+.amarillo{
+    background-color: rgb(189, 189, 28);
+}
+
+a{
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+nav{
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #222;
+    color: whitesmoke;
+    margin-bottom: 10px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+.logo{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+
+header{
+    margin: 0;
+    text-align: center;
+}
+
+img{
+    max-width: 150px;
+}
+
+
+.container{
+    margin: 30px;
+}
+
+.carta{
+    position: relative;
+    left: 100px;
+    margin-left: -75px;
+}
+
+#jugador-cartas , #npc-cartas{
+    height:220px;
+}
